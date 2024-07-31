@@ -22,6 +22,8 @@ while True:
     print("3. Multiplicar")
     print("4. Dividir")
     print("5. Suma avanzada")
+    print("6. Salir")
+
 
     try:
         option = int(input(Fore.CYAN + "Escribe el número de tu opción: "))
@@ -57,6 +59,8 @@ while True:
     elif option == 5:
         res = suma_avanzada(numbers)
         print(Fore.GREEN + f"Resultado: {res}")
+    elif option == 6:
+        break
 
     process = input("¿Continuar usando? yes/no: ").strip().lower()
     if process != 'yes':
