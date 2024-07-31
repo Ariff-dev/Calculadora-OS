@@ -13,7 +13,7 @@
 1. Clona el repositorio
 
 ```shell
-git clone https://github.com/Ariff-dev/Calculadora-OS
+git https://github.com/Ariff-dev/Calculadora-OS.git
 ```
 
 2. Viaja a la carpeta que te genero
